@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row">
+    <div class="col col-8">
+<!--      <h2></h2><br>-->
+        <p>A web app that compares AURIN data with tweets gathered from 5 Australian states, to determine the state with maximum foreign language tweets based on non-proficient English language immigrants.</p>
+        <p>Tasks: </p>
+        <ul>
+            <li>Mapbox Visualization</li>
+            <li>Statistical Analysis</li>
+        </ul>
+    </div>
+    <div class="col">
+      <img class="img-fluid" src="{{ url_for('static', filename='images/clc.jpeg')}}">
+    </div>
+    <footer class="footer">
+      <div class="container text-center">
+        <span class="text-muted">Made by Amritesh Singh @ UNSW</span>
+      </div>
+    </footer>
+  </div>
+{% endblock %}
