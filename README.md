@@ -1,4 +1,4 @@
-# AURIN-vs-Tweet-Data-Analytics
+# English non-proficiency of immigrants vs. Usage of non-English language in tweets
 Web app that compares AURIN data with tweets gathered from 5 Australian states, to draw a correlation between foreign language tweets and English language proficiency (or non-proficiency) of immigrants.
 
 Tasks:
